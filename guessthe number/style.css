@@ -1,0 +1,108 @@
+.html {
+    margin: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: yellow;
+}
+#body{
+    background-image:url('https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148922432.jpg?t=st=1735802289~exp=1735805889~hmac=beb08f12f78a4ec149dd1c015907a1066cf216f89b6fdf00e018d3b51b7c7a95&w=740') ;
+    background-size :contain;
+    
+
+    
+}
+#body::after{
+    content: '';
+    background-color: rgba(0,0,0,3);
+
+}
+
+
+.container {
+
+    background-color: rgba(0, 0,0, 0.6);
+    border-radius: 10px;
+    margin-top: 2%;
+    height: 500px;
+    width: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    border: double black ;
+    padding-left: 5px;
+    color: gainsboro;
+    box-shadow: 0,4px,8px,rgba(0, 0,0, 0.3);
+}
+
+#lekha {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    padding-left: 100px;
+    font-size: medium;
+}
+#myno{
+    background-color: rgba(0, 0,0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(118, 10, 241);
+    font-weight: bold;
+}
+
+.submit {
+    position:absolute;
+    display: block;
+    bottom: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    border:thin rgb(145, 61, 240);
+    background-color:rgba(144, 7, 224, 0.267);
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    /* opacity: 0.5; */
+    cursor:grabbing;
+    transition:background-color 0.3 ease;
+    color: white;
+
+}
+#newGame{
+    background-color:rgba(144, 7, 224, 0.267);
+    position: absolute;
+    display: block;
+    bottom: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    border:thin rgb(145, 61, 240);
+    background-color:rgba(144, 7, 224, 0.267);
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    /* opacity: 0.5; */
+    cursor:grabbing;
+    transition:background-color 0.3 ease;
+    color: white;
+
+}
+#newGame:hover{
+    opacity: 0.5;
+}
+.submit:hover{
+    opacity: 0.5;
+
+}
+
+#resultparas {
+    align-content: left;
+    align-self: left;
+    align-items: left;
+    padding-left: 100px;
+    font-size: medium;
+}
+
+
+

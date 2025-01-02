@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess KAro</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- <script></script> -->
+</head>
+
+<body id="body">
+    <div class="container" id="container">
+        <h1 id="lekha">Number guessing game</h1>
+        <ul class="inst" type="button">
+            <li>
+                <p>Try and guess a random number between 1 and 100.</p>
+            </li>
+            <li>
+                <p>You have 10 attempts to guess the right number.</p>
+            </li>
+
+
+        </ul>
+
+        </br>
+        <form action="" class="form">
+            <p class="entry"> Enter the number : <input type=" " class="myno" id="myno"
+                    placeholder="example: 123456...">
+            </p>
+            <br>
+            <br>
+            <input type="submit" class="submit" id="submit" value="submit">
+        </form>
+        <div class="resultparas" id="resultparas">
+            <p>Previous guess : <span id="Bguess" class="Bguess"></span></p>
+            <p>guess remaining : <span id="lastguess" class="lastguess">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+
+</html>
